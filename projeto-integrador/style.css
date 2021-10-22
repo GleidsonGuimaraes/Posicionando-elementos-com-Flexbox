@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: 'Open Sans', 'Sans-serif';
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul, li, a, p {
+    text-decoration: none;
+}
+
+/* ====================== */
+
+.border {
+    border: 1px solid orange;
+}
+
+.flex-container {
+    display: flex;
+    max-width: 992px;
+    margin: auto;
+    width: 100%;
+}
+
+.flex-coluna {
+    flex-direction: column;
+}
+
+/* ========================= */
+
+.cabeçalho {
+    background: #1B468A;
+    height: 100px;
+}
+
+.divCabeçalho {
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-h1 {
+    text-align: center;
+    color: white;
+}
+
+.header-ul {
+    display: flex;
+}
+
+.header-a {
+    margin-left: 15px;
+    color: white;
+}
+
+/* ================================== */
+
+.saibaMais {
+    flex: 1;
+    align-items: center;
+}
+
+.saibaMaisDescriçao, .saibaMaisImagem {
+    flex: 1;
+}
+
+.saibaMaisButtom {
+    background-color: #1B468A;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.saibaMaisP {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* ===================================== */
+
+.quemSomos {
+    align-items: center;
+}
+
+.quemSomosP {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+/* ==================================== */
+
+.serviços {
+    background: #1B468A;
+    flex-direction: column;
+}
+
+.serviçosTitulo {
+    flex: 1;
+}
+
+.serviçosH2 {
+    color: white;
+    margin: 10px;
+    margin-left: 80px;
+}
+
+.serviçosOpçoes {
+    justify-content: space-around;
+}
+
+.serviçosItem {
+    flex-direction: column;
+    align-items: center;
+}
+
+.serviçosItem1 {
+    order: 1;
+}
+
+.serviçosItem2 {
+    order: 2;
+}
+
+.serviçosItem3 {
+    order: 3;
+}
+
+.serviçosItemP {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.serviçosItemButtom {
+    background-color: white;
+    color: #1B468A;
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin-bottom: 20px;   
+}
+
+/* ==================================== */
+
+.planos {
+    height: 400px;
+}
+
+.planosP {
+    height: 300px;
+    justify-content: space-around;
+}
+
+.planosBorder {
+    border: 3px solid #1B468A;
+    padding: 20px;
+}
+
+.plano1A {
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-end;
+    height: 100%;
+}
+
+.planosOpçao {
+    display: flex;
+    justify-content: space-around;
+}
+
+.plano1 {
+    height: 150px;
+}
+
+.plano2 {
+    height: 225px;
+    align-self: flex-end;
+}
+
+.plano3 {
+    align-self: flex-end;
+}
+
+.planosH3 {
+    text-align: center;
+}
+
+.planosLinha {
+    border: 2px solid #1B468A;
+    border-radius: 5px;
+}
+
+.planosUl {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.planosUl2 {
+    list-style: disc;
+}
+
+/* =================================== */
+
+.rodape {
+    background-color: #1B468A;
+    height: 50px;
+    justify-content: center;
+}
+
+.rodape1 {
+    width: 892px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodapeTexto {
+    font-size: 14px;
+    color: white;
+    align-self: flex-end;
+}
+
+.rodapeTextoA {
+    font-weight: bold;
+    color: white;
+}

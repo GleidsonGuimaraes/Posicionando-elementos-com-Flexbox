@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Turismos</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="cabeçalho">
+        <div class="flex-container divCabeçalho">
+            <h1 class="header-h1">FlexTurismos</h1>
+            <ul class="header-ul">
+                <li><a class="header-a" href="#quem-somos">Quem Somos</a></li>
+                <li><a class="header-a" href="#serviços">Serviços</a></li>
+                <li><a class="header-a" href="#planos">Planos</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Saiba Mais -->
+    <div class=" flex-container saibaMais">
+        <div class=" saibaMaisDescriçao">
+            <h1 class="">Flex <br>Turismos</h1>
+            <p class="saibaMaisP">O melhor serviço para você!</p>
+            <a class="saibaMaisButtom " href="">Saiba Mais</a>
+        </div>
+
+        <div class=" saibaMaisImagem">
+            <div class=""><img src="./images/0-main.png" alt="banner de apresentação"></div>
+        </div>
+    </div>
+
+    <div class=" flex-container quemSomos" id="quem-somos">
+        <div class="">
+            <img src="./images/1-quem-somos.png" alt="balcão de atendimento">
+        </div>
+
+        <div class="">
+            <h2>Quem somos</h2>
+            <p class="quemSomosP">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+            <p class="quemSomosP">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+        </div>
+    </div>
+
+    <!-- Serviços -->
+    <div class=" flex-container serviços" id="serviços">
+        <div class="">
+            <h2 class="serviçosH2">Serviços</h2>
+        </div>
+
+        <div class=" flex-container serviçosOpçoes">
+            <div class="serviçosItem serviçosItem2 flex-container">
+                <div><img src="./images/icon-2.png" alt="hospedagens"></div>
+                <p class="serviçosItemP">Hospedagens</p>
+                <a class="serviçosItemButtom" href="#">Comprar Agora</a>
+            </div>
+
+            <div class="serviçosItem serviçosItem1 flex-container">
+               <div><img src="./images/icon-1.png" alt="pacote de viagens"></div>
+               <p class="serviçosItemP">Pacotes de viagens</p>
+               <a class="serviçosItemButtom" href="#">Comprar Agora</a>
+            </div>
+
+            <div class="serviçosItem serviçosItem3 flex-container">
+                <div><img src="./images/icon-3.png" alt="roteiros personalizados"></div>
+                <p class="serviçosItemP">Roteiros personalizados</p>
+                <a class="serviçosItemButtom" href="#">Comprar Agora</a>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Planos -->
+    <div class="flex-container planos" id="planos">
+        <div class="planosP flex-container">
+
+            <div class="plano1A flex-coluna">
+
+                <!-- Título Plano -->
+                <div>
+                    <h2>Planos</h2>
+                </div>
+
+                <!-- Plano 1 -->
+                <div class="planosBorder planosOpçao flex-coluna plano1">
+                    <div class=" planosH3">
+                        <h3>Plano 1</h3>
+                    </div>
+                    <div class="planosLinha"></div>
+                    <div class=" planosUl">
+                        <ul class="planosUl2">
+                            <li>Suporte 24h</li>
+                            <li>Serviços de quarto</li>
+                            <li>Guia turístico</li>
+                        </ul>
+                    </div>
+                    <div class=" planosA">
+                        <a class="saibaMaisButtom" href="#">Saiba Mais!</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Plano 2 -->
+            <div class=" planosBorder planosOpçao flex-coluna plano2">
+                <div class="planosH3">
+                    <h3>Plano 2</h3>
+                </div>
+                <div class="planosLinha"></div>
+                <div class="planosUl">
+                    <ul class="planosUl2">
+                        <li>Suporte 24h</li>
+                        <li>Serviços de quarto</li>
+                        <li>Guia turístico</li>
+                        <li>Roteiro de trilhas</li>
+                        <li>Serviço personalizado</li>
+                    </ul>
+                </div>
+                <div class="planosA">    
+                    <a class="saibaMaisButtom" href="#">Saiba Mais!</a>
+                </div>
+            </div>
+
+            <!-- Plano 3 -->
+            <div class="planosBorder planosOpçao flex-coluna">
+                <div class="planosH3">
+                    <h3>Plano 3</h3>
+                </div>
+                <div class="planosLinha"></div>
+                <div class="planosUl">
+                    <ul class="planosUl2">
+                        <li>Suporte 24h</li>
+                        <li>Serviços de quarto</li>
+                        <li>Guia turístico</li>
+                        <li>Roteiro de trilhas</li>
+                        <li>Serviço personalizado</li>
+                        <li>Área Vip</li>
+                    </ul>
+                </div>
+                <div class="planosA">
+                    <a class="saibaMaisButtom" href="#">Saiba Mais!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="flex-container rodape">
+        <div class="rodape1">
+            <div class="rodapeTexto">
+                <p>&copy; 2021 CSS Flexbox</p>
+            </div>
+            <div class="rodapeTexto">
+                <p>Desenvolvido por: <a class="rodapeTextoA" href="https://www.linkedin.com/in/gleidsonguimarães-">Gleidson Guimarães</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
