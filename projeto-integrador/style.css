@@ -176,7 +176,7 @@ ul, li, a, p {
 }
 
 .plano2 {
-    height: 225px;
+    height: 200px;
     align-self: flex-end;
 }
 
@@ -190,6 +190,7 @@ ul, li, a, p {
 
 .planosLinha {
     border: 2px solid #1B468A;
+    background-color: #1B468A;
     border-radius: 5px;
 }
 
@@ -200,6 +201,13 @@ ul, li, a, p {
 
 .planosUl2 {
     list-style: disc;
+}
+
+.planosButtom {
+    background-color: #1B468A;
+    color: white;
+    padding: 5px 25px;
+    border-radius: 20px;
 }
 
 /* =================================== */
