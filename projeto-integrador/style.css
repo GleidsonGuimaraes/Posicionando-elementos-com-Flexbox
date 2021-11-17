@@ -14,6 +14,10 @@ ul, li, a, p {
     text-decoration: none;
 }
 
+p {
+    font-size: 16px;
+}
+
 /* ====================== */
 
 .border {
@@ -22,9 +26,8 @@ ul, li, a, p {
 
 .flex-container {
     display: flex;
-    max-width: 992px;
+    max-width: 90%;
     margin: auto;
-    width: 100%;
 }
 
 .flex-coluna {
@@ -34,51 +37,55 @@ ul, li, a, p {
 /* ========================= */
 
 .cabeçalho {
+    display: flex;
     background: #1B468A;
     height: 100px;
 }
 
 .divCabeçalho {
-    height: 100px;
+    width: 100%;
     align-items: center;
     justify-content: space-between;
 }
 
 .header-h1 {
-    text-align: center;
+    flex: 2;
     color: white;
 }
 
 .header-ul {
+    flex: 1;
     display: flex;
+    justify-content: space-around;
 }
 
 .header-a {
-    margin-left: 15px;
     color: white;
 }
 
 /* ================================== */
 
 .saibaMais {
-    flex: 1;
     align-items: center;
 }
 
-.saibaMaisDescriçao, .saibaMaisImagem {
+.saibaMaisDescricao, .saibaMaisImagem {
     flex: 1;
+}
+
+.saibaMaisDescricao {
+    margin-left: 8%;
 }
 
 .saibaMaisButtom {
     background-color: #1B468A;
     color: white;
-    padding: 5px 15px;
-    border-radius: 20px;
+    padding: 0px 30px;
+    border-radius: 10px;
 }
 
 .saibaMaisP {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 /* ===================================== */
@@ -87,101 +94,114 @@ ul, li, a, p {
     align-items: center;
 }
 
+.quemSomosDescricao {
+    margin-left: 8%;
+}
+
 .quemSomosP {
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: justify;
 }
 
 /* ==================================== */
 
-.serviços {
+.servicos {
     background: #1B468A;
-    flex-direction: column;
+    height: 400px;
 }
 
-.serviçosTitulo {
+.servicosTitulo{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 8%;
+}
+
+.servicosOpcoes {
+    display: flex;
     flex: 1;
-}
-
-.serviçosH2 {
-    color: white;
-    margin: 10px;
-    margin-left: 80px;
-}
-
-.serviçosOpçoes {
     justify-content: space-around;
-}
-
-.serviçosItem {
-    flex-direction: column;
     align-items: center;
 }
 
-.serviçosItem1 {
+.servicosItem {
+    width: 220px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.servicosH2 {
+    color: white;
+}
+
+.servicosItemP {
+    color: white;
+    width: 90%;
+    text-align: center;
+}
+
+.servicosItemButtom {
+    background-color: white;
+    color: #1B468A;
+    border-radius: 10px;
+    width: 90%;
+    text-align: center;
+}
+
+
+.servicosItem1 {
     order: 1;
 }
 
-.serviçosItem2 {
+.servicosItem2 {
     order: 2;
 }
 
-.serviçosItem3 {
+.servicosItem3 {
     order: 3;
-}
-
-.serviçosItemP {
-    color: white;
-    margin-bottom: 10px;
-}
-
-.serviçosItemButtom {
-    background-color: white;
-    color: #1B468A;
-    padding: 5px 15px;
-    border-radius: 20px;
-    margin-bottom: 20px;   
 }
 
 /* ==================================== */
 
-.planos {
-    height: 400px;
-}
-
-.planosP {
-    height: 300px;
-    justify-content: space-around;
+.planoContainer {
+    width: 80%;
 }
 
 .planosBorder {
     border: 3px solid #1B468A;
-    padding: 20px;
 }
 
-.plano1A {
+.planos {
     display: flex;
-    justify-content: space-between;
-    align-self: flex-end;
-    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+    height: 400px;
+    margin-bottom: 10px;
 }
 
 .planosOpçao {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    width: 200px;
 }
 
 .plano1 {
-    height: 150px;
+    align-self: flex-end;
+    height: 50%;
 }
 
 .plano2 {
-    height: 200px;
     align-self: flex-end;
+    height: 75%;
 }
 
 .plano3 {
     align-self: flex-end;
+    height: 100%;
 }
 
 .planosH3 {
@@ -195,19 +215,19 @@ ul, li, a, p {
 }
 
 .planosUl {
+    width: 70%;
+    align-self: center;
     font-size: 14px;
     font-weight: bold;
-}
-
-.planosUl2 {
     list-style: disc;
 }
 
 .planosButtom {
+    display: flex;
+    justify-content: center;
     background-color: #1B468A;
     color: white;
-    padding: 5px 25px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 /* =================================== */
@@ -219,7 +239,7 @@ ul, li, a, p {
 }
 
 .rodape1 {
-    width: 892px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -233,4 +253,21 @@ ul, li, a, p {
 .rodapeTextoA {
     font-weight: bold;
     color: white;
+}
+
+/* ================================== */
+/* Styles buttons */
+
+.saibaMaisButtom:hover, .planosButtom:hover {
+    background-color: #245ebb;
+    color: #ddd;
+}
+
+.servicosItemButtom:hover {
+    background-color: black;
+    color: white;
+}
+
+.header-a:hover{
+    color: black;
 }

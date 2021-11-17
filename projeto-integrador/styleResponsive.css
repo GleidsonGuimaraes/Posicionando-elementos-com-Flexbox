@@ -1,0 +1,104 @@
+@media screen and (max-width:900px) {
+
+    header h1 {
+        margin-bottom: 10px;
+    }
+
+    header ul li {
+        margin-bottom: 5px;
+    }
+
+    .cabeçalho {
+        height: auto;
+    }
+
+    .divCabeçalho {
+        flex-direction: column;
+    }
+
+    .header-ul {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;       
+    }
+
+    .saibaMais {
+        flex-direction: column;
+    }
+
+    .saibaMaisImagem{
+        width: auto;
+    }
+
+    .img {
+        width: 100%;
+    }
+
+    .quemSomos {
+        flex-direction: column;
+    }
+
+    .quemSomosImagem {
+        order: 2;
+    }
+
+    .quemSomosDescricao, .saibaMaisDescricao, .servicosTitulo {
+        margin: 0;
+    }
+
+    .servicos {
+        height: auto;
+        justify-content: center;
+    }
+
+    .servicosItem div img {
+        margin-bottom: 10px;
+    }
+
+    .servicosItem p {
+        margin-bottom: 10px;
+    }
+
+    .servicosTitulo {
+        justify-content: center;
+    }
+
+    .servicosOpcoes {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .servicosItem {
+        width: auto;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .planos {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+
+    .planosOpçao {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+
+    .rodape1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 5%;
+    }
+
+    .rodape {
+        max-width: 100%;
+    }
+}
