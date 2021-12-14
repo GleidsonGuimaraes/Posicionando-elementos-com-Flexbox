@@ -1,5 +1,7 @@
 # Posicionando itens com Flexbox em CSS
 
+![Gif P_E_FlexBox](projeto-integrador/images/P_E_FlexBox.gif)
+
 ## Display: flex;
 
 * Indica que os elementos interno de um outro elemento, estão organizados dentro de um conteiner.
